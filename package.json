@@ -1,0 +1,28 @@
+{
+  "name": "@flesch/hello",
+  "description": "John Flesch • Software Engineering Manager • Innovative and Strategic Team Leader",
+  "homepage": "https://github.com/flesch/hello-flesch",
+  "version": "1.0.0",
+  "main": "./dist/flesch-resume.pdf",
+  "author": {
+    "email": "john@fles.ch",
+    "name": "John Flesch",
+    "url": "https://fles.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flesch/hello-flesch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flesch/hello-flesch/issues"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "sips -s format png dist/flesch-resume.pdf --out dist/flesch-resume.png"
+  },
+  "private": true,
+  "license": "MIT"
+}
